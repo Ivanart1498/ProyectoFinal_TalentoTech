@@ -18,7 +18,7 @@
   <div class="section">
     <h2>🔧 Tecnologías Utilizadas</h2>
     <ul>
-      <li>Lenguaje: Java 17</li>
+      <li>Lenguaje: Java 23</li>
       <li>Framework: Spring Boot, Spring Security</li>
       <li>ORM: Spring Data JPA</li>
       <li>Base de datos: MySQL (Workbench)</li>
@@ -90,7 +90,7 @@ spring.jpa.hibernate.ddl-auto=update
   <div class="section">
     <h2>🔧 Technologies Used</h2>
     <ul>
-      <li>Language: Java 17</li>
+      <li>Language: Java 23</li>
       <li>Framework: Spring Boot, Spring Security</li>
       <li>ORM: Spring Data JPA</li>
       <li>Database: MySQL (Workbench)</li>
