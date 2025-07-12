@@ -2,34 +2,6 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Trabajo Final - TechLab Demo API</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      line-height: 1.6;
-      max-width: 900px;
-      margin: auto;
-      padding: 20px;
-      color: #333;
-      background-color: #f8f9fa;
-    }
-    h1, h2, h3 {
-      color: #2c3e50;
-    }
-    code, pre {
-      background: #f1f1f1;
-      padding: 5px 10px;
-      border-radius: 5px;
-    }
-    .section {
-      margin-bottom: 40px;
-    }
-    hr {
-      margin: 40px 0;
-      border: none;
-      border-top: 2px solid #ccc;
-    }
-  </style>
 </head>
 <body>
 
