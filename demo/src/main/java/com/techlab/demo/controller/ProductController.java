@@ -2,6 +2,7 @@ package com.techlab.demo.controller;
 
 import com.techlab.demo.entity.Producto;
 import com.techlab.demo.services.ProductService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -10,14 +11,15 @@ import java.util.List;
 @RequestMapping("/productos")
 public class ProductController {
 
-    ProductService productService;
+   @Autowired
+    private ProductService productService;
 
     @GetMapping("/list")
     public List<Producto> listaProductos(){
         return productService.Listar();
     }
 
-    @PostMapping("/create")
+    @PostMapping("/api")
     public String crearProductos (@RequestBody Producto prod){
         return productService.save(prod);
     }
@@ -28,8 +30,8 @@ public class ProductController {
     }
 
     @PutMapping("/update/{id}")
-    public String actualizarProductos (@PathVariable Long id){
-        return productService.update(id);
+    public String actualizarProductos (@PathVariable Long id, @RequestBody Producto producto){
+        return productService.update(id, producto);
     }
 
     @DeleteMapping("/delete/{id}")

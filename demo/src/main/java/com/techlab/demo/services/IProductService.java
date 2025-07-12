@@ -10,5 +10,5 @@ public interface IProductService {
     public List<Producto> Listar();
     public Producto findId(Long Id);
     public String delete(Long Id);
-    public String update(Long Id);
+    public String update(Long Id, Producto producto);
 }
