@@ -143,7 +143,7 @@ spring.jpa.hibernate.ddl-auto=update
     <h2>📬 Contact</h2>
     <p><strong>Ivana Treppo</strong><br>
       <a href="mailto:ivanaromerotreppo@gmail.com">ivanaromerotreppo@gmail.com</a><br>
-      <a href=https://www.linkedin.com/in/ivana-romero-treppo-76739b289/>LinkedIn</a>
+      <a href=https://www.linkedin.com/in/ivana-romero-treppo-76739b289/?locale=en_US>LinkedIn</a>
     </p>
   </div>
 
