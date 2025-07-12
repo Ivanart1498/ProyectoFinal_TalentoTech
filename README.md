@@ -6,13 +6,13 @@
 <body>
 
   <h1>🛠️ Trabajo Final - TechLab Demo API</h1>
-  <p><strong>Autora:</strong> Ivana Romina Treppo</p>
+  <p><strong>Autora:</strong> Ivana RomeroTreppo</p>
   <p><strong>Fecha:</strong> Julio 2025</p>
   <p><strong>Curso:</strong> Backend con Java - Talento Tech</p>
 
   <div class="section">
     <h2>📌 Descripción del Proyecto</h2>
-    <p>Este proyecto representa una API web desarrollada como trabajo final para el curso de backend. Se trata de una aplicación de gestión de productos, pedidos y usuarios con autenticación basada en roles utilizando JWT. Se usaron herramientas modernas como Spring Boot, Spring Security, MySQL y Lombok.</p>
+    <p>Este proyecto representa una API web desarrollada como trabajo final para el curso de backend. Se trata de una aplicación backend de gestión de productos, pedidos y usuarios con autenticación basada en roles utilizando JWT. Se usaron herramientas modernas como Spring Boot, Spring Security, MySQL y Lombok.</p>
   </div>
 
   <div class="section">
@@ -78,7 +78,7 @@ spring.jpa.hibernate.ddl-auto=update
   <hr>
 
   <h1>🛠️ Final Project - TechLab Demo API</h1>
-  <p><strong>Author:</strong> Ivana Romina Treppo</p>
+  <p><strong>Author:</strong> Ivana Romero Treppo</p>
   <p><strong>Date:</strong> July 2025</p>
   <p><strong>Course:</strong> Java Backend - Talento Tech</p>
 
